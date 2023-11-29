@@ -1,0 +1,92 @@
+body, html {
+  height: 100%; /* Ensure the body and html take the full height of the viewport */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/*NOT WORKING*/
+.container {
+  display: flex;
+  flex-direction: column; 
+  height: 100%; 
+}
+
+.headerContainer{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: #3E3A37;
+  color: #F1F0EA;
+  font-size: 70px;
+  text-align: center;
+  padding-top:10px;
+  padding-bottom:10px;
+  gap: 9px;
+  width: 100%;
+}
+
+.bodyContainer{
+  flex: 4; /*NOT WORKING*/
+  font-weight: bold;
+}
+.input{
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left:50px;
+  padding-right:50px;
+  flex: 2;
+  display:flex;
+  flex-direction: column;
+  margin:auto;
+  width:500px;
+  /* height:80px; */
+  /* background-color: #f00; */
+  /* border-radius:10px; */
+}
+
+.input input[type="text"]{
+  background: #E7E5E5;
+  border-color: #3E3A37;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+.input input[type="number"]{
+  background: #E7E5E5;
+  border-color: #3E3A37;
+  border-radius: 5px;
+  border-width: 2px;
+  /* font-family: 'Times New Roman', serif; */
+}
+
+/* .row1{
+  display:flex;
+}
+
+.row3{
+  display:flex;
+} */
+
+.submit{
+  display:flex;
+  background: #E7E5E5; 
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left:50%;
+  border-width: 2px;
+}
+
+.link{
+  display:flex;
+  padding-left:50.5%;
+  color:green;
+  font-size:17px;
+}
+
+/* Not working */
+.link:visited{
+  color:red;
+}
